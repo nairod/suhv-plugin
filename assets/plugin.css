@@ -1,0 +1,12 @@
+.suhv-webcomponents-widget {
+	max-width: 100%;
+}
+
+.suhv-webcomponents-loading,
+.suhv-webcomponents-notice {
+	margin: 0 0 1rem;
+	padding: 1rem;
+	border-left: 4px solid #e3001b;
+	background: #f6f7f9;
+	color: #1f2933;
+}

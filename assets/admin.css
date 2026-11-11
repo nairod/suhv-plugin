@@ -1,0 +1,52 @@
+.suhv-webcomponents-generator label {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.suhv-webcomponents-team-list {
+	display: grid;
+	gap: 12px;
+	max-width: 900px;
+}
+
+.suhv-webcomponents-team {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	padding: 12px 16px;
+}
+
+.suhv-webcomponents-team h4 {
+	margin: 0 0 10px;
+}
+
+.suhv-webcomponents-team h4 span {
+	color: #646970;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.suhv-webcomponents-code {
+	align-items: center;
+	display: grid;
+	gap: 6px;
+	grid-template-columns: 150px minmax(0, 1fr) auto auto;
+	margin: 8px 0;
+}
+
+.suhv-webcomponents-code textarea {
+	font-family: monospace;
+	min-height: 38px;
+	resize: vertical;
+	width: 100%;
+}
+
+.suhv-copy-status {
+	color: #008a20;
+	min-width: 60px;
+}
+
+@media (max-width: 700px) {
+	.suhv-webcomponents-code {
+		grid-template-columns: 1fr;
+	}
+}
